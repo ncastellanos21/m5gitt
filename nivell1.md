@@ -24,10 +24,10 @@ Utilitzen 16 bits i codifiquen caràcters segons el format UNICODE (no com ASCII
 Els valor literals dels dígits poden ser escrits en base 10, hexadecimal i octal. Els valors numèrics decimals, la coma ha de ser un punt.
 
 
-'// Hola.java
+`// Hola.java
 import java.io.IOException;
 public class Hola {
  public static void main(String[] args)throws IOException {
  System.out.println("Hola, món!"); 
  }
-}'
+}´
