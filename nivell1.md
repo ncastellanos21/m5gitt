@@ -1,24 +1,33 @@
-# Titol 1
-## Titol 2
-## Titol 3
-#### Titol 4
-##### Titol 5
-###### Titol 6
+# JAVA
 
-- Cosa 1
-- Cosa 2
-- Cosa 3
-- Cosa 4
-- Cosa 5
-- Cosa 6
+[Java a Sun Microsystems](http://java.sun.com/)
+## Característiques de Java
+- senzill
+- Orientat a objectes
+- Distribuït
+- Interpretat
+- Robust
+- Segur
+- Arquitectura Neutral
+- Portable
+- Alt rendiment
+- Concurrent
+- Dinàmic
 
-Creo que todos soñábamos con una _"Esfera mágica"_ que nos digese todo, puede e aquí nuestro [**Google**](www.google.com)
+## Tipus de dades
+#### Tipus de dades primitius
+##### Boolean
+Només pot tenir el valor **true** o **false**.
+##### Char
+Utilitzen 16 bits i codifiquen caràcters segons el format UNICODE (no com ASCII que fa servir 8 bits). El Tipus de dada char és un dígit individual, sense signe el qual es pot representar com numèrics (0 al 9), lletres (a-z) i símbol ($, _). **NOTA**: _En llenguatge java la codificació Unicode permet treballar amb tots els caràcters de diferents idiomes_.
+#### byte, short, int, long
+Els valor literals dels dígits poden ser escrits en base 10, hexadecimal i octal. Els valors numèrics decimals, la coma ha de ser un punt.
 
->En algún sitio, algo increible esta por suceder.
 
-
-'<div class="row">
-  <div class="col-md-6 col-md-offset-3">
-    <h1>Hello World</h1>
-  </div>
-</div>'
+'// Hola.java
+import java.io.IOException;
+public class Hola {
+ public static void main(String[] args)throws IOException {
+ System.out.println("Hola, món!"); 
+ }
+}'
